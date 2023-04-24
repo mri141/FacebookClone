@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>   
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="EI=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>SocialMedia (Facebook Clone)</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        
+        <script src="https://kit.fontawesome.com/b06cbcac0c.js" crossorigin="anonymous"></script>
+    </head>
+
+    
+    
+<body>
+      <nav>
+            <div class="nav-left">
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><img src="images/notification.png"></li> 
+                    <li><img src="images/inbox.png"></li>
+                    <li><img src="images/video.png"></li>
+                </ul>
+            </div>
+            
+            <div class="nav-right">
+                <div class="search-box">
+                    <img src="images/search.png">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                    <img src="images/profile-pic.png">
+                </div>
+            </div>
+            
+            
+            
+<!--            settings menu-->
+         <div class="settings-menu">
+             
+             <div id="dark-btn">
+                 <span></span>
+             </div>
+             
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <a href="profile.html">See Your Profile</a>
+                        </div>
+                </div>
+                
+                <hr>
+            
+                <div class="user-profile">
+                        <img src="images/feedback.png">
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="#">Help me to improve my social site</a>
+                        </div>
+                </div>
+                <hr>
+                
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px;"></a>
+                </div>
+                
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px;"></a>
+                </div>
+                
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px;"></a>
+                </div>
+                
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px;"></a>
+                </div>
+           </div>
+              
+              
+        </div>    
+    </nav>
+        
+        
+        
+        
+        <div class="container">
+<!--Left sidebar html code starting from this line-->
+            <div class="left-sidebar">
+                <div class="imp-links">
+                    <a href="#"><img src="images/news.png"> Latest News</a>
+                    <a href="#"><img src="images/friends.png"> Friends</a>
+                    <a href="#"><img src="images/group.png"> Group</a>
+                    <a href="#"><img src="images/marketplace.png"> Marketplace</a>
+                    <a href="#"><img src="images/watch.png"> Watch</a>
+                    <a href="#"> See More</a>
+                </div>
+                
+                <div class="shortcut-links">
+                    <p>Your Shortcuts</p>
+                    <a href="#"><img src="images/shortcut-1.png"> Web Developers</a>
+                    <a href="#"><img src="images/shortcut-2.png"> Web Design</a>
+                    <a href="#"><img src="images/shortcut-3.png"> Facebook Live Tutorials</a>
+                    <a href="#"><img src="images/shortcut-4.png"> Web Experts</a>
+                </div>
+            </div>
+            
+            
+   
+<!--Main Content-->
+            <div class="main-content">
+                <div class="story-gallery">
+                    <div class="story story1">
+                        <img src="images/upload.png">
+                        <p>Post Story</p>
+                    </div>
+                    
+                    <div class="story story2">
+                        <img src="images/member-1.png">
+                        <p>Sirajum Munira</p>
+                    </div>
+                    
+                    <div class="story story3">
+                        <img src="images/member-2.png">
+                        <p>Raihan Al Shorif</p>
+                    </div>
+                    
+                    <div class="story story4">
+                        <img src="images/member-3.png">
+                        <p>Rayhan MD Saifullah</p>
+                    </div>
+                    
+                    <div class="story story5">
+                        <img src="images/member-4.png">
+                        <p>Dipjol</p>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <small>Public <i class="fas fa-caret-down"></i></small>
+                        </div>
+                    </div>                
+                
+                
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Developer XYZ?"></textarea>
+                    
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/video.png">Live Video</a>
+                        <a href="#"><img src="images/photo.png">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png">Feelings/Activity</a>
+                    </div>
+                </div>
+            </div>   
+              
+                
+<!--                1st post-->  
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>August 13 2020, 02:20 PM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">I am XYZ. It is my social networking website which is created by html css and introduced as the clone of facebook. <br><a href="#">#developer #fbclone #designer #socialMedia</a></p>
+                    <img src="images/feed-image-2.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png">299  .</div>
+                        <div><img src="images/comments.png">75  .</div>
+                        <div><img src="images/share.png">52  .</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                             
+                    </div>
+                    </div>
+                </div>
+                
+<!--                2nd post-->       
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>August 7 2020, 12:52 AM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Three simple rules in life: <br>
+1-If you do not go after what you want, you will never have it.<br>
+2-If you don't ask, the answer will always be no.<br>
+3-If you do not step forward, you'll always be in the same place.</p>
+                    <img src="images/feed-image-1.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like.png">150  .</div>
+                        <div><img src="images/comments.png">45  .</div>
+                        <div><img src="images/share.png">32  .</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                             
+                    </div>
+                    </div>
+                </div>
+                
+<!--                3rd post-->
+                
+                  <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>August 5 2020, 08:50 PM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        »Hate lazy and deceive people.<br><br>
+                        
+                        »Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful -- Albert Schweitzer<br><br>
+                        
+                        »I will not say I failed 1000 times but I will say I discovered 1000 ways that can cause failure--Edison.<br><br>
+                        
+                        »Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we can fear less--Marie Curie.
+                      </p>
+                    <img src="images/feed-image-3.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png">119  .</div>
+                        <div><img src="images/comments.png">35  .</div>
+                        <div><img src="images/share.png">12  .</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>       
+                    </div>
+                    </div>
+                </div>
+
+                
+<!--                4th post-->
+                
+                  <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>August 01 2020, 05:12 PM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        »I failed in some subjects in exam, but my friend passed in all. Now he is an engineer in Microsoft and I am the owner of Microsoft--Bill Gates.<br><br>
+                        
+                        »You can never solve a problem on the level on which it was created-- Albert Einstein.<br><br>
+                        
+                        »We are so vain that we even care for the opinion of those we don't care for.<br><br>
+                        
+                        »The only good is knowledge and the only evil is ignorance--Socrates.
+                      </p>
+                    <img src="images/feed-image-4.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like.png">81  .</div>
+                        <div><img src="images/comments.png">13  .</div>
+                        <div><img src="images/share.png">27  .</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                    </div>
+                </div>
+                
+                
+                
+<!--                5th post-->
+                
+                  <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>August 01 2020, 01:20 AM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        »The future will only contain what we put into it now.<br><br>
+                        
+                        »If you think you are too small to make an impact, try sleeping in a room with a few mosquitoes--West African proverb.<br><br>
+                        
+                        »Be realistic, demand the impossible.<br><br>
+                        
+                        »It is dangerous to be right when the government is wrong.<br><br>
+                        
+                        »They always say time changes things, but you actually have to change them yourself.<br><br>
+                        
+                        »Never test the water with both feet.</p>
+                    <img src="images/feed-image-5.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png"> 252  .</div>
+                        <div><img src="images/comments.png">135  .</div>
+                        <div><img src="images/share.png">99</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                    </div>
+                </div>
+                
+<!--                6th post-->
+                
+                  <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>July 31 2020, 12:20 AM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        »Never test the water with both feet.<br><br>
+                        
+                        »Unless we change direction, we are likely to end up where we are headed-- Chinese proverb.<br><br>
+                        
+                        »Learn from yesterday, live for today, hope for tomorrow -- Albert Einstein.<br><br>
+                        
+                        »The best way to predict your future is to create it -- Abraham Lincoln.
+                      </p>
+                    <img src="images/feed-image-5.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png"> 252  .</div>
+                        <div><img src="images/comments.png">135  .</div>
+                        <div><img src="images/share.png">99</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                    </div>
+                </div>   
+                
+<!--                7th post-->
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>july 28 2020, 02:20 PM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        Facebook was made by someone who was dropped out from school and surely the invention of Facebook shows he wanted all of us to join him
+                    </p>
+                    <img src="images/feed-image-2.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png">299  .</div>
+                        <div><img src="images/comments.png">75  .</div>
+                        <div><img src="images/share.png">52  .</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                             
+                    </div>
+                    </div>
+                </div>
+                
+<!--                8th post-->       
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>August 7 2020, 12:52 AM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                      »Give me some sunshine, give me some rain, give me another chance wanna grow up once again.
+                        <br><br>
+                      »I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and sometimes hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best -- Marilyn Monroe 
+                    </p>
+                    <img src="images/feed-image-1.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like.png">150  .</div>
+                        <div><img src="images/comments.png">45  .</div>
+                        <div><img src="images/share.png">32  .</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                             
+                    </div>
+                    </div>
+                </div>
+                
+<!--                9th post-->
+                
+                  <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>July 25 2020, 08:50 PM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        পারস্যের মহাকবি শেখ সাদীর উপদেশ ও বিখ্যাত বানীসমূহ .!!<br><br><br>
+                        ✮আমি আল্লাহকে সবচেয়ে বেশী ভয় পাই, তার পরেই ভয় পাই সেই মানুষকে যে আল্লাহকে মোটেই ভয় পায় না।<br>
+                        ✮এমনভাবে জীবনযাপন করে যেন কখনো মরতে হবেনা,আবার এমনভাবে মরে যায় যেন কখনো বেচেই ছিল না।<br>
+                        ✮যে সৎ, নিন্দা তার কোন অনিষ্ট করতে পারেনা।<br>
+                        ✮প্রতাপশালী লোককে সবাই ভয় পায় কিন্তু শ্রদ্ধা করে না।<br>
+                        ✮দেয়ালের সম্মুখে দাঁড়িয়ে কথা বলার সময় সতর্ক হয়ে কথা বলো, কারন তুমি জান না দেয়ালের পেছনে কে কান পেতে দাঁড়িয়ে আছে।<br>
+                        ✮মুখের কথা হচ্ছে থুথুর মত, যা একবার মুখ থেকে ফেলে দিলে আর ভিতরে নেওয়া সম্ভব নয়। তাই কথা বলার সময় খুব চিন্তা করে বলা উচিত।<br>
+                        ✮মন্দ লোকের সঙ্গে যার উঠা বসা, সে কখনো কল্যানের মুখ দেখবে না।<br>
+                        ✮দুই শত্রুর মধ্যে এমন ভাবে কথাবার্তা বল, তারা পরস্পরে মিলে গেলেও যেন তোমাকে লজ্জিত হতে না হয়।<br>
+                        ✮বাঘ না খেয়ে মরলেও কুকুরের উচ্ছিষ্ট মুখে তুলে না।<br>
+                        ✮অযোগ্য লোককে দায়িত্ব দেওয়া চরম দায়িত্বহীনতা।<br>
+                        ₹ইহ-পরকালে যাহা আবশ্যক তাহা যৌবনে সংগ্রহ করিও<br>
+                        ✮না শিখিয়া ওস্তাদি করিও না<br>
+                        ✮পরিক্ষা ভিন্ন কিছু বিশ্বাস করিও না<br>
+                        ✮বল অপেক্ষা কৌশল শ্রেষ্ঠ ও কার্যকারী<br>
+                        ✮বানরকে স্নেহ করিলে মাথায় উঠে<br>
+                        ✮বিড়ালকে স্নেহ করিলে কোলে উঠে<br>
+                        ✮মিথ্যাবাদীর স্বরণশক্তি অধিক<br>
+                        ✮সকল কাজেই মধ্যপন্থা অবলম্বন করিও<br>
+                        ✮একজন ঘুমন্ত ব্যক্তি আর একজন ঘুমন্ত ব্যক্তিকে জাগ্রত করতে পারে না।<br>
+                        ✮বিদ্যা এমন সম্পদ যা বিতরনে বাড়ে।<br>
+                        ✮প্রতিশ্রুতি খুব কম দিও। দয়া করবার আগে ন্যায়বান হও।<br>
+                        ✮এক জনের জুতো নেই। এই নিয়ে তার আক্ষেপ। তার আক্ষেপ ঘুচল। কেননা সে দেখল এক জনের পা-ই নেই।<br>
+                        ❖পা পিছলে পড়ে যাওয়া লজ্জার কথা নয়। বরং যথা সময়ে উঠে না দাঁড়ানোই লজ্জার ব্যাপার।<br>
+                        ❖তর্কে জেতা বুদ্ধিমানের কাজ নয় বরং বুদ্ধিমানের কাজ হল তর্কে না জড়ানো।<br>
+                        ❖বুদ্ধির সীমা আছে কিন্তু বোকামীর কোন সীমা নেই।<br>
+                        ❖জ্ঞানী মূর্খকে চিনতে পারে কেননা সে জ্ঞানী। পক্ষান্তরে মূর্খ জ্ঞানীকে চিনতে পারে না, কেননা সে মূর্খ।<br>
+                        ❖বন্ধুত্ব একটি ছাতার ন্যায়। বৃষ্টি যতই প্রবল হয় ছাতার ততই প্রয়োজন পড়ে।<br>
+                        ❖ভূল করা দোষের কথা নয় বরং ভূলের উপর প্রতিষ্ঠিত থাকা দোষণীয়।<br>
+                        ❖মানুষের সাথে সে রূপ আচরণ কর যেমন তারা পছন্দ করে। নিজের পছন্দ মাফিক আচরণ কর না।<br><br>
+                      </p>
+                    <img src="images/feed-image-3.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png">119  .</div>
+                        <div><img src="images/comments.png">35  .</div>
+                        <div><img src="images/share.png">12  .</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>       
+                    </div>
+                    </div>
+                </div>
+
+                
+<!--                10th post-->
+                
+                  <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>July 21 2020, 05:12 PM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                    যাদের তুমি আপন ভাবো, তাদের কাছেই শোনা;<br>গোল টেবিলের বৃত্তে তোমার, গভীর সমালোচনা।<br><br>
+                    %%%%%%%%%%%%%%%%<br><br>
+                    শিক্ষা মানুষকে আলোকিত করে, আবেগ মানুষকে নষ্ট করে,<br> "বিবেক মানুষকে বাঁচায়, আনন্দ মানুষকে হাসায়"<br> ধৈর্য মানুষকে উন্নত করে", মিথ্যা মানুষ কে ধংস করে।<br><br> %%%%%%%%%%%%%%%%<br><br>
+                    →৩টি জিনিসের উপর ভরসা করা ঠিক নয়।<br>
+                        ১.নদীর পাড়ের বাড়ি, ২.ব্রেক ছাড়া গাড়ি, ৩.পর্দা ছাড়া নারী।<br><br>
+                    →তিনটি জিনিস একবার আসেঃ<br>
+                        (১)মাতা-পিতা (২)সৌন্দর্য্য (৩)যৌবন।<br><br>
+                    →তিনটি জিনিস ফিরিয়ে আনা যায় নাঃ<br>
+                        (১)বন্দুকের গুলি (২)কথা (৩)রূহ।<br><br>
+                    →তিনটি জিনিস মৃত্যুর পর উপকারে আসেঃ<br>
+                        (১)সু-সন্তান (২)সদকা (৩)ইলম।<br><br>
+                    →তিনটি জিনিস সম্মান নষ্ট করেঃ<br>
+                        (১)চুরি (২)চোগলখুরী (৩)মিথ্যা।<br><br>
+                    →তিনটি জিনিস পেরেশানিতে রাখেঃ<br>
+                        (১)হিংসা (২)অভাব (৩)সন্দেহ।<br><br>
+                    →তিনটি জিনিসকে সর্বদা মনে রেখঃ<br>
+                        (১)উপদেশ (২)উপকার (৩)মৃত্যু।<br><br>
+                    →তিনটি জিনিস কে আয়ত্বে রেখঃ<br>
+                        (১)রাগ (২)জিহবা (৩)অন্তর।<br><br>
+                    →তিনটি জিনিস অভ্যাস করঃ<br>
+                        (১)নামাজ (২)সত্য বলা (৩)হালাল রিযিক।<br><br>
+                    →তিনটি জিনিস থেকে দূরে থেকঃ<br>
+                        (১)মিথ্যা (২)অহংকার (৩)অভিশাপ।<br><br>
+                    →তিনটি জিনিসকে চিন্তা করে ব্যবহার করঃ<br>
+                        (১)কলম (২)কসম (৩)কদম<br><br>
+                    →তিন জনের নিকট কখনো গোপন কথা বলিও নাঃ<br>
+                        (ক)স্ত্রীলোক. (খ)জ্ঞানহীন মূর্খ. (গ)শত্রু<br><br>
+                      </p>
+                    <img src="images/feed-image-4.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like.png">81  .</div>
+                        <div><img src="images/comments.png">13  .</div>
+                        <div><img src="images/share.png">27  .</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                    </div>
+                </div>                
+               
+                
+                <!--                11th post-->  
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>August 13 2020, 02:20 PM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">I am XYZ. It is my social networking website which is created by html css and introduced as the clone of facebook. <br><a href="#">#developer #fbclone #designer #socialMedia</a></p>
+                    <img src="images/feed-image-2.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png">299  .</div>
+                        <div><img src="images/comments.png">75  .</div>
+                        <div><img src="images/share.png">52  .</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                             
+                    </div>
+                    </div>
+                </div>
+                
+<!--                12th post-->       
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>August 7 2020, 12:52 AM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">Three simple rules in life: <br>
+1-If you do not go after what you want, you will never have it.<br>
+2-If you don't ask, the answer will always be no.<br>
+3-If you do not step forward, you'll always be in the same place.</p>
+                    <img src="images/feed-image-1.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like.png">150  .</div>
+                        <div><img src="images/comments.png">45  .</div>
+                        <div><img src="images/share.png">32  .</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                             
+                    </div>
+                    </div>
+                </div>
+                
+<!--                13th post-->
+                
+                  <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>August 5 2020, 08:50 PM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        »Hate lazy and deceive people.<br><br>
+                        
+                        »Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful -- Albert Schweitzer<br><br>
+                        
+                        »I will not say I failed 1000 times but I will say I discovered 1000 ways that can cause failure--Edison.<br><br>
+                        
+                        »Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we can fear less--Marie Curie.
+                      </p>
+                    <img src="images/feed-image-3.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png">119  .</div>
+                        <div><img src="images/comments.png">35  .</div>
+                        <div><img src="images/share.png">12  .</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>       
+                    </div>
+                    </div>
+                </div>
+
+                
+<!--                14th post-->
+                
+                  <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>August 01 2020, 05:12 PM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        »I failed in some subjects in exam, but my friend passed in all. Now he is an engineer in Microsoft and I am the owner of Microsoft--Bill Gates.<br><br>
+                        
+                        »You can never solve a problem on the level on which it was created-- Albert Einstein.<br><br>
+                        
+                        »We are so vain that we even care for the opinion of those we don't care for.<br><br>
+                        
+                        »The only good is knowledge and the only evil is ignorance--Socrates.
+                      </p>
+                    <img src="images/feed-image-4.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like.png">81  .</div>
+                        <div><img src="images/comments.png">13  .</div>
+                        <div><img src="images/share.png">27  .</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                    </div>
+                </div>
+                
+                
+                
+<!--                15th post-->
+                
+                  <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>August 01 2020, 01:20 AM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        »The future will only contain what we put into it now.<br><br>
+                        
+                        »If you think you are too small to make an impact, try sleeping in a room with a few mosquitoes--West African proverb.<br><br>
+                        
+                        »Be realistic, demand the impossible.<br><br>
+                        
+                        »It is dangerous to be right when the government is wrong.<br><br>
+                        
+                        »They always say time changes things, but you actually have to change them yourself.<br><br>
+                        
+                        »Never test the water with both feet.</p>
+                    <img src="images/feed-image-5.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png"> 252  .</div>
+                        <div><img src="images/comments.png">135  .</div>
+                        <div><img src="images/share.png">99</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                    </div>
+                </div>
+                
+<!--                16th post-->
+                
+                  <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>July 31 2020, 12:20 AM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        »Never test the water with both feet.<br><br>
+                        
+                        »Unless we change direction, we are likely to end up where we are headed-- Chinese proverb.<br><br>
+                        
+                        »Learn from yesterday, live for today, hope for tomorrow -- Albert Einstein.<br><br>
+                        
+                        »The best way to predict your future is to create it -- Abraham Lincoln.
+                      </p>
+                    <img src="images/feed-image-5.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png"> 252  .</div>
+                        <div><img src="images/comments.png">135  .</div>
+                        <div><img src="images/share.png">99</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                    </div>
+                </div>   
+                
+<!--                17th post-->
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>july 28 2020, 02:20 PM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        Facebook was made by someone who was dropped out from school and surely the invention of Facebook shows he wanted all of us to join him
+                    </p>
+                    <img src="images/feed-image-2.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png">299  .</div>
+                        <div><img src="images/comments.png">75  .</div>
+                        <div><img src="images/share.png">52  .</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                             
+                    </div>
+                    </div>
+                </div>
+                
+<!--                18th post-->       
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>August 7 2020, 12:52 AM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                      »Give me some sunshine, give me some rain, give me another chance wanna grow up once again.
+                        <br><br>
+                      »I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and sometimes hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best -- Marilyn Monroe 
+                    </p>
+                    <img src="images/feed-image-1.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like.png">150  .</div>
+                        <div><img src="images/comments.png">45  .</div>
+                        <div><img src="images/share.png">32  .</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                             
+                    </div>
+                    </div>
+                </div>
+                
+<!--                19th post-->
+                
+                  <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>July 25 2020, 08:50 PM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                        পারস্যের মহাকবি শেখ সাদীর উপদেশ ও বিখ্যাত বানীসমূহ .!!<br><br><br>
+                        ✮আমি আল্লাহকে সবচেয়ে বেশী ভয় পাই, তার পরেই ভয় পাই সেই মানুষকে যে আল্লাহকে মোটেই ভয় পায় না।<br>
+                        ✮এমনভাবে জীবনযাপন করে যেন কখনো মরতে হবেনা,আবার এমনভাবে মরে যায় যেন কখনো বেচেই ছিল না।<br>
+                        ✮যে সৎ, নিন্দা তার কোন অনিষ্ট করতে পারেনা।<br>
+                        ✮প্রতাপশালী লোককে সবাই ভয় পায় কিন্তু শ্রদ্ধা করে না।<br>
+                        ✮দেয়ালের সম্মুখে দাঁড়িয়ে কথা বলার সময় সতর্ক হয়ে কথা বলো, কারন তুমি জান না দেয়ালের পেছনে কে কান পেতে দাঁড়িয়ে আছে।<br>
+                        ✮মুখের কথা হচ্ছে থুথুর মত, যা একবার মুখ থেকে ফেলে দিলে আর ভিতরে নেওয়া সম্ভব নয়। তাই কথা বলার সময় খুব চিন্তা করে বলা উচিত।<br>
+                        ✮মন্দ লোকের সঙ্গে যার উঠা বসা, সে কখনো কল্যানের মুখ দেখবে না।<br>
+                        ✮দুই শত্রুর মধ্যে এমন ভাবে কথাবার্তা বল, তারা পরস্পরে মিলে গেলেও যেন তোমাকে লজ্জিত হতে না হয়।<br>
+                        ✮বাঘ না খেয়ে মরলেও কুকুরের উচ্ছিষ্ট মুখে তুলে না।<br>
+                        ✮অযোগ্য লোককে দায়িত্ব দেওয়া চরম দায়িত্বহীনতা।<br>
+                        ₹ইহ-পরকালে যাহা আবশ্যক তাহা যৌবনে সংগ্রহ করিও<br>
+                        ✮না শিখিয়া ওস্তাদি করিও না<br>
+                        ✮পরিক্ষা ভিন্ন কিছু বিশ্বাস করিও না<br>
+                        ✮বল অপেক্ষা কৌশল শ্রেষ্ঠ ও কার্যকারী<br>
+                        ✮বানরকে স্নেহ করিলে মাথায় উঠে<br>
+                        ✮বিড়ালকে স্নেহ করিলে কোলে উঠে<br>
+                        ✮মিথ্যাবাদীর স্বরণশক্তি অধিক<br>
+                        ✮সকল কাজেই মধ্যপন্থা অবলম্বন করিও<br>
+                        ✮একজন ঘুমন্ত ব্যক্তি আর একজন ঘুমন্ত ব্যক্তিকে জাগ্রত করতে পারে না।<br>
+                        ✮বিদ্যা এমন সম্পদ যা বিতরনে বাড়ে।<br>
+                        ✮প্রতিশ্রুতি খুব কম দিও। দয়া করবার আগে ন্যায়বান হও।<br>
+                        ✮এক জনের জুতো নেই। এই নিয়ে তার আক্ষেপ। তার আক্ষেপ ঘুচল। কেননা সে দেখল এক জনের পা-ই নেই।<br>
+                        ❖পা পিছলে পড়ে যাওয়া লজ্জার কথা নয়। বরং যথা সময়ে উঠে না দাঁড়ানোই লজ্জার ব্যাপার।<br>
+                        ❖তর্কে জেতা বুদ্ধিমানের কাজ নয় বরং বুদ্ধিমানের কাজ হল তর্কে না জড়ানো।<br>
+                        ❖বুদ্ধির সীমা আছে কিন্তু বোকামীর কোন সীমা নেই।<br>
+                        ❖জ্ঞানী মূর্খকে চিনতে পারে কেননা সে জ্ঞানী। পক্ষান্তরে মূর্খ জ্ঞানীকে চিনতে পারে না, কেননা সে মূর্খ।<br>
+                        ❖বন্ধুত্ব একটি ছাতার ন্যায়। বৃষ্টি যতই প্রবল হয় ছাতার ততই প্রয়োজন পড়ে।<br>
+                        ❖ভূল করা দোষের কথা নয় বরং ভূলের উপর প্রতিষ্ঠিত থাকা দোষণীয়।<br>
+                        ❖মানুষের সাথে সে রূপ আচরণ কর যেমন তারা পছন্দ করে। নিজের পছন্দ মাফিক আচরণ কর না।<br><br>
+                      </p>
+                    <img src="images/feed-image-3.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like-blue.png">119  .</div>
+                        <div><img src="images/comments.png">35  .</div>
+                        <div><img src="images/share.png">12  .</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>       
+                    </div>
+                    </div>
+                </div>
+
+                
+<!--                20th post-->
+                
+                  <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <a href="profile.html"><p>Developer XYZ</p></a>
+                            <span>July 21 2020, 05:12 PM</span>
+                        </div>
+                    </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                    <p class="post-text">
+                    যাদের তুমি আপন ভাবো, তাদের কাছেই শোনা;<br>গোল টেবিলের বৃত্তে তোমার, গভীর সমালোচনা।<br><br>
+                    %%%%%%%%%%%%%%%%<br><br>
+                    শিক্ষা মানুষকে আলোকিত করে, আবেগ মানুষকে নষ্ট করে,<br> "বিবেক মানুষকে বাঁচায়, আনন্দ মানুষকে হাসায়"<br> ধৈর্য মানুষকে উন্নত করে", মিথ্যা মানুষ কে ধংস করে।<br><br> %%%%%%%%%%%%%%%%<br><br>
+                    →৩টি জিনিসের উপর ভরসা করা ঠিক নয়।<br>
+                        ১.নদীর পাড়ের বাড়ি, ২.ব্রেক ছাড়া গাড়ি, ৩.পর্দা ছাড়া নারী।<br><br>
+                    →তিনটি জিনিস একবার আসেঃ<br>
+                        (১)মাতা-পিতা (২)সৌন্দর্য্য (৩)যৌবন।<br><br>
+                    →তিনটি জিনিস ফিরিয়ে আনা যায় নাঃ<br>
+                        (১)বন্দুকের গুলি (২)কথা (৩)রূহ।<br><br>
+                    →তিনটি জিনিস মৃত্যুর পর উপকারে আসেঃ<br>
+                        (১)সু-সন্তান (২)সদকা (৩)ইলম।<br><br>
+                    →তিনটি জিনিস সম্মান নষ্ট করেঃ<br>
+                        (১)চুরি (২)চোগলখুরী (৩)মিথ্যা।<br><br>
+                    →তিনটি জিনিস পেরেশানিতে রাখেঃ<br>
+                        (১)হিংসা (২)অভাব (৩)সন্দেহ।<br><br>
+                    →তিনটি জিনিসকে সর্বদা মনে রেখঃ<br>
+                        (১)উপদেশ (২)উপকার (৩)মৃত্যু।<br><br>
+                    →তিনটি জিনিস কে আয়ত্বে রেখঃ<br>
+                        (১)রাগ (২)জিহবা (৩)অন্তর।<br><br>
+                    →তিনটি জিনিস অভ্যাস করঃ<br>
+                        (১)নামাজ (২)সত্য বলা (৩)হালাল রিযিক।<br><br>
+                    →তিনটি জিনিস থেকে দূরে থেকঃ<br>
+                        (১)মিথ্যা (২)অহংকার (৩)অভিশাপ।<br><br>
+                    →তিনটি জিনিসকে চিন্তা করে ব্যবহার করঃ<br>
+                        (১)কলম (২)কসম (৩)কদম<br><br>
+                    →তিন জনের নিকট কখনো গোপন কথা বলিও নাঃ<br>
+                        (ক)স্ত্রীলোক. (খ)জ্ঞানহীন মূর্খ. (গ)শত্রু<br><br>
+                      </p>
+                    <img src="images/feed-image-4.png" class="post-img">
+                    
+                    <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="images/like.png">81  .</div>
+                        <div><img src="images/comments.png">13  .</div>
+                        <div><img src="images/share.png">27  .</div>
+                    </div>    
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+                    </div>
+                    </div>
+                </div>
+                
+                <button type="button" class="load-more-btn">Lode More</button>
+            </div>
+            
+            
+            
+            
+            
+            
+                  
+            
+<!--Right Sidebar-->
+            <div class="right-sidebar">
+                <div class="sidebar-title">
+                    <h4>Events</h4>
+                    <a href="#">See All</a>
+                </div>
+                
+                <div class="event">
+                    <div class="left-event">
+                        <h3>18</h3>
+                        <span>March</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Social Media</h4>
+                        <p><i class="fas fa-map-marker-alt"></i>Dhaka, Bangladesh</p>
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+                
+                <div class="event">
+                    <div class="left-event">
+                        <h3>22</h3>
+                        <span>June</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Mobile Marketing Event</h4>
+                        <p><i class="fas fa-map-marker-alt"></i>Dhaka, Bangladesh</p>
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+<!--  Advertisement              -->
+                <div class="sidebar-title">
+                    <h4>Advertisement</h4>
+                    <a href="#">Close</a>
+                </div>
+                <img src="images/advertisement.png" alt="photo of advertisment" class="sidebar-adv">
+<!--Conversation                -->
+                <div class="sidebar-title">
+                    <h4>Conversation</h4>
+                    <a href="#">Hide Chat</a>
+                </div>
+                
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-1.png">
+                    </div>
+                    <p>Sirajum Munira</p>
+                </div>
+                
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-2.png">
+                    </div>
+                    <p>Raihan Al Shorif</p>
+                </div>
+                
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-3.png">
+                    </div>
+                    <p>Rayhan MD Saifullah</p>
+                </div> 
+                
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-4.png">
+                    </div>
+                    <p>Dipjol</p>
+                </div>
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-1.png">
+                    </div>
+                    <p>Sirajum Munira</p>
+                </div>
+                
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-2.png">
+                    </div>
+                    <p>Raihan Al Shorif</p>
+                </div>
+             
+    
+            </div>
+            
+            
+    </div>
+        
+        <div class="footer">
+            <p>Copyright 2020 - Developer XYZ</p>    
+        </div>
+        
+    </body>
+</html>
